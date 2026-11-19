@@ -1,0 +1,41 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Henrique de almeida",
+      "cpf": "123.456.789-08",
+      "login": "nrique@gmail.com",
+      "cidade": "Foz do Iguaçu",
+      "telefone": "(45) 98888-0001",
+      "cep": "85851-000"
+    }
+  ],
+  "treinadores": [
+    {
+      "id": 2,
+      "cdedf": "00000000000",
+      "nome": "mateus",
+      "login": "treinatongo@gmail.com",
+      "especialidade": "jiu",
+      "telefone": "(09) 99999-9999"
+    }
+  ],
+  "modalidades": [
+    {
+      "id": 1,
+      "esporte": "jiu",
+      "turno": "noite",
+      "turma": "2A",
+      "agenda": "quarta-feira"
+    }
+  ],
+  "matriculas": [
+    {
+      "id": 1,
+      "aluno_id": 1,
+      "modalidade_id": 1,
+      "modalidade_turno": "noite",
+      "modalidade_esporte": "jiu"
+    }
+  ]
+}
